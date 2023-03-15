@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <style>
+        .curriculo{
+            width: 200px;
+            height: 70px;
+        }
+        
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>DADOS PESSOAIS</legend>
+        Nome:<input type=”TEXT” class=”caixa_larga”  >
+        <br>   <br>
+        Endereço:<input type=”TEXT” class=”caixa_larga”  >
+           <br>   <br>
+        Cidade: <input type=”TEXT” class=”caixa_larga”  >
+        <br>   <br>
+        Estado:<select id=”estado” class=”estado”>
+        <option>Santa Catarina</option>
+        <option>Paraná</option>
+        <option>Rio Grande do Sul</option>
+        </select>            
+     </fieldset>
+     <fieldset>
+        <legend>DADOS PROFISSIONAIS</legend>
+        Natureza dos cargos:
+        <input type="radio" >gerencia
+        <input type="radio" >Financeira
+        <input type="radio" >recepção
+        <input type="radio" >administrativo
+        <input type="radio" >juridico
+        <br> <br>
+        ÁREA DE INTERESSE:
+        <input type="checkbox"> &nbsp;Computação &nbsp; 
+        <input type="checkbox"> &nbsp;Biologia &nbsp;
+        <input type="checkbox"> &nbsp;Meio ambiente &nbsp;
+        <input type="checkbox"> &nbsp;Engenharia &nbsp;
+        <input type="checkbox"> &nbsp;Historia &nbsp;
+        <br> <br>
+        Mini Curriculo
+        <br> <br>
+        <textarea class="curriculo"></textarea>
+    </fieldset>
+    <button class=”BT”> Enviar </button>
+    <button class=”BT”> Cancelar </button>
+
+</body>
+</html>
